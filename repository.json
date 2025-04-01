@@ -1,0 +1,15 @@
+{
+  "name": "SBFspot Add-on Repository",
+  "url": "https://github.com/ToPod12/homeassistant-sbfspot",
+  "maintainer": "Tom P.",
+  "addons": [
+    {
+      "name": "SBFspot",
+      "slug": "sbfspot",
+      "description": "Leest gegevens van SMA-omvormers en integreert ze in Home Assistant.",
+      "version": "1.0.0",
+      "url": "https://github.com/ToPod12/homeassistant-sbfspot/sbfspot",
+      "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"]
+    }
+  ]
+}
