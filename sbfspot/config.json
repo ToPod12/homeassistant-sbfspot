@@ -1,0 +1,14 @@
+{
+  "name": "SBFspot",
+  "version": "1.0",
+  "slug": "sbfspot",
+  "description": "SBFspot SMA omvormer uitlezen",
+  "startup": "system",
+  "boot": "auto",
+  "hassio_api": true,
+  "host_network": true,
+  "privileged": ["SYS_ADMIN"],
+  "options": {},
+  "schema": {},
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"]
+}
