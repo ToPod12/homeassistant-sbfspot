@@ -4,4 +4,6 @@ RUN git clone https://github.com/SBFspot/SBFspot.git /opt/SBFspot
 WORKDIR /opt/SBFspot/SBFspot
 RUN mkdir build
 WORKDIR /opt/SBFspot/SBFspot/build
-RUN cmake .. && make && make install
+RUN cmake .. 
+RUN make
+RUN make install
